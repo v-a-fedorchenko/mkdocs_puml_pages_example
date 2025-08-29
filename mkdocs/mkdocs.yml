@@ -1,0 +1,10 @@
+site_name: MkDocs Example Project
+nav:
+  - Home: index.md
+  - Architecture: architecture.md
+plugins:
+  - search
+  - plantuml:
+      puml_url: https://www.plantuml.com/plantuml/
+theme:
+  name: material
